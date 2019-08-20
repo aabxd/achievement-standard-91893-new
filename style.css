@@ -1,3 +1,30 @@
 * {
   margin: 0 auto;
 }
+
+/*Navigation*/
+header {
+  background-color: darkgrey;
+  color: white;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;;
+}
+
+nav a {
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+}
+/*Footer*/
+footer {
+  padding: 20px;
+  background-color: grey;
+  color: white;
+}
