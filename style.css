@@ -1,12 +1,7 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
-</style>
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * {
-  margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
-
 /*Navigation*/
 header {
   background-color: #666666;
@@ -35,3 +30,4 @@ footer {
   background-color: #434343;
   color: white;
 }
+
