@@ -4,9 +4,9 @@
   grid-template-columns: [col] auto [col] auto [col] auto [col] auto ;
   grid-template-rows: [row] auto [row] auto [row] ;
   background-color: #fff;
-  color: #444;
-  margin: 40px;
-}
+ color: #444;
+} 
+
 
 .box {
   background-color: #444;
