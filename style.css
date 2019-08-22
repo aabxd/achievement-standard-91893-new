@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
-	font-family: 'Roboto', sans-serif;
-	margin: 0 auto;
+	font-family: 'Roboto', 'sans-serif';
+	margin: 0;
 }
+
 /*Navigation*/
 header {
   background-color: #666666;
