@@ -45,10 +45,37 @@
   grid-column: col 1 / span 2 ;
   grid-row: row 3 ;
   padding: 50px;
+  font-size: 50%;
 }
 
 .five {
   grid-column: col 3 / span 2;
   grid-row: row 3;
   padding: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .one, .two, .three, .four, .five {
+    grid-column : col  / span 1;
+    padding: 50px;
+  }
+  .one {
+    grid-row: row;
+  }
+
+  .two {
+    grid-row: 2;
+  }
+
+  .three {
+    grid-row: row 3;
+  }
+
+  .four {
+    grid-row: row 4;
+  }
+
+  .five {
+    grid-row: row 5;
+  }
 }
