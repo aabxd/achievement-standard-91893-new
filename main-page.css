@@ -28,30 +28,36 @@
 .one {
   grid-column: col 1 / span 3;
   grid-row: row;
+  background-color: red;
 }
 
 .two {
   grid-column: col 4 / span 1;
   grid-row: row;
+  background-color: blue;
 }
 
 .three {
   grid-column: col 1 / span 4;
   grid-row: row 2;
   padding: 90px;
+  background-color: green;
 }
 
 .four {
   grid-column: col 1 / span 2 ;
   grid-row: row 3 ;
   padding: 50px;
-  font-size: 50%;
+  font-size: 90%;
+  background-color: yellow;
 }
 
 .five {
   grid-column: col 3 / span 2;
   grid-row: row 3;
   padding: 50px;
+  font-size: 90%;
+  background-color: purple;
 }
 
 @media screen and (max-width: 800px) {
