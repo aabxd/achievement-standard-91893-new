@@ -12,7 +12,7 @@ header {
   padding: 50px;
 }
 
-#language {
+.languages a {
   padding: 0;
   margin: 0 20px;
   background-color: black;
@@ -80,7 +80,7 @@ footer {
       padding: 0;
     }
 
-    #language {
+    .languages a {
       margin: 0;
     }
 
