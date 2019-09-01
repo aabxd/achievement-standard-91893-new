@@ -77,14 +77,21 @@
 @media screen and (max-width: 800px) {
   .content-grid{
   height: 100%;
-  grid-gap: 40px;
+  grid-gap: 30px;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 20% 20% 30% 15% 15%;
+  grid-template-rows: 15% 15% 40% 15% 15%;
+  margin: 100px 0 200px 0;
   grid-template-areas:
     "one"
     "two"
     "tee"
     "for"
     "fiv";
+  }
+  .box p {
+    padding: 40px;
+  }
+  .box h2 {
+    padding: 20px;
   }
 }
