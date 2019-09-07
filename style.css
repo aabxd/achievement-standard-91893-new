@@ -9,14 +9,9 @@
 header {
   background-color: #666666;
   color: white;
-  padding: 50px;
+  padding: 40px;
 }
 /*Navigation*/
-.languages a {
-  padding: 0;
-  margin: 0 20px;
-  background-color: black;
-}
 
 nav ul {
     padding: 0;
@@ -33,12 +28,22 @@ nav a {
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    margin: 0 5px;
+    margin: 0;
     color: white;
 }
 
 nav a#openup {
     display: none;
+}
+
+/*Language Options*/
+.languages {
+
+}
+.languages a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
 }
 
 /*Footer*/
@@ -54,47 +59,43 @@ footer {
       padding: 0;
     }
 
-    .languages a {
-      margin: 0;
-    }
-
     nav {
-        height: auto;
-        border-bottom: 0;
+      height: auto;
+      border-bottom: 0;
     }
 
     nav ul {
-        display: none;
-        height: auto;
+      display: none;
+      height: auto;
     }
 
     nav li {
-        width: 100%;
-        float: left;
-        position: relative;
-        font-size: 12px;
+      width: 100%;
+      float: left;
+      position: relative;
+      font-size: 12px;
     }
 
     nav a {
-        text-align: left;
-        width: 100%;
-        text-indent: 25px;
-        background: #666666;
-        border-bottom: 1px solid rgb(85, 85, 85);
-        padding: 50px 0;
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+      background: #666666;
+      border-bottom: 1px solid rgb(85, 85, 85);
+      padding: 45px 0;
     }
 
     nav a#openup:after {
-        content: "|||";
-        transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -webkit-transform: rotate(-90deg);
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        position: absolute;
-        right: 5px;
-        top: 20px;
+      content: "|||";
+      transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 5px;
+      top: 20px;
     }
 
     nav a#openup {
@@ -103,6 +104,22 @@ footer {
         width: 100%;
         position: relative;
     }
+
+    .languages {
+      padding: 5px;
+      margin: 0;
+      background-color: #434343;
+    }
+    /*
+    .btn:before {
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+    }
+
+    .btn:after{
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+    }*/
 }
 
 .bar:before,
@@ -123,9 +140,6 @@ footer {
 .btn {
   cursor: pointer;
   position: relative;
-  /*padding: 10px 20px;
-  background: white;
-  font-size: 28px;*/
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   transition: all 1s;
