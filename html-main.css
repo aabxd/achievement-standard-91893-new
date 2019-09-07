@@ -5,7 +5,6 @@
     height: 90vh;
     background-position: center;
     background-size: cover;
-    /*background-attachment: fixed;*/
     z-index: 1;
 }
 
@@ -52,12 +51,17 @@
 }
 
 .two {
-  background-color: blue;
+  background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
+  url(images/Years-and-Curriculum-Levels_preview.png);
+  background-position: center;
+  background-size: cover;
   grid-area: two;
 }
 
 .three {
-  background-color: green;
+  background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
+  url(images/geometry-1023846_1280.jpg);
+  background-size: cover;
   grid-area: tee;
 }
 
@@ -68,17 +72,19 @@
 }
 
 .five {
-  background-color: purple;
+  background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
+  url(images/computer-1209641_1280.jpg);
+  background-size: cover;
   grid-area: fiv;
 }
 /*Media Query Grid*/
 @media screen and (max-width: 800px) {
   .content-grid{
   height: 100%;
-  grid-gap: 30px;
+  grid-gap: 0;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 15% 15% 40% 15% 15%;
-  margin: 100px 0 200px 0;
+  grid-template-rows: auto;
+  margin: 0;
   grid-template-areas:
     "one"
     "two"
@@ -86,6 +92,12 @@
     "for"
     "fiv";
   }
+
+  .box {
+    border: 0;
+    border-radius: 0;
+  }
+
   .box p {
     padding: 40px;
   }
