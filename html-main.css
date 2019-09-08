@@ -1,11 +1,20 @@
 /*Hero Image*/
 .hero-img {
     background-image: linear-gradient(rgba(68, 208, 255, 0.6),
-    rgba(143, 227, 255, 0.6)), url(images/hero-img.jpg);
+    rgba(143, 227, 255, 0.6)),
+    url(images/project-story-wakatipu-high-school-07_2_orig.jpg);
     height: 90vh;
     background-position: center;
     background-size: cover;
     z-index: 1;
+}
+
+.logo {
+  display:block;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 240px;
+  width: 420px;
 }
 
 .hero-img h1{
@@ -46,7 +55,11 @@
 }
 
 .one {
-  background-color: red;
+  background-image: linear-gradient(rgba(68, 208, 255, 0.6),
+  rgba(143, 227, 255, 0.6)),
+  url(images/4908484032_a933d6f067_b.jpg);
+  background-position: center;
+  background-size: cover;
   grid-area: one;
 }
 
@@ -103,5 +116,10 @@
   }
   .box h2 {
     padding: 20px;
+  }
+
+  .logo {
+    height: 200px;
+    width: 300px;
   }
 }
