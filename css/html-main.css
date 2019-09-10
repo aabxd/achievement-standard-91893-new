@@ -2,7 +2,7 @@
 .hero-img {
     background-image: linear-gradient(rgba(68, 208, 255, 0.6),
     rgba(143, 227, 255, 0.6)),
-    url(images/project-story-wakatipu-high-school-07_2_orig.jpg);
+    url(../images/project-story-wakatipu-high-school-07_2_orig.jpg);
     height: 90vh;
     background-position: center;
     background-size: cover;
@@ -57,7 +57,7 @@
 .one {
   background-image: linear-gradient(rgba(68, 208, 255, 0.6),
   rgba(143, 227, 255, 0.6)),
-  url(images/4908484032_a933d6f067_b.jpg);
+  url(../images/4908484032_a933d6f067_b.jpg);
   background-position: center;
   background-size: cover;
   grid-area: one;
@@ -65,7 +65,7 @@
 
 .two {
   background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
-  url(images/Years-and-Curriculum-Levels_preview.png);
+  url(../images/Years-and-Curriculum-Levels_preview.png);
   background-position: center;
   background-size: cover;
   grid-area: two;
@@ -73,20 +73,20 @@
 
 .three {
   background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
-  url(images/geometry-1023846_1280.jpg);
+  url(../images/geometry-1023846_1280.jpg);
   background-size: cover;
   grid-area: tee;
 }
 
 .four {
   background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
-  url(images/placeholder.jpg);
+  url(../images/placeholder.jpg);
   grid-area: for;
 }
 
 .five {
   background-image: linear-gradient(rgba(68, 208, 255, 0.6), rgba(143, 227, 255, 0.6)),
-  url(images/computer-1209641_1280.jpg);
+  url(../images/computer-1209641_1280.jpg);
   background-size: cover;
   grid-area: fiv;
 }
