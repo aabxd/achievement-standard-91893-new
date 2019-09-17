@@ -1,23 +1,23 @@
 /*Hero Image*/
 .hero-img {
-    background-image: linear-gradient(rgba(57, 162, 198, 0.6),
-    rgba(152, 224, 249, 0.65)),
+  background-image: linear-gradient(rgba(57, 162, 198, 0.6),
+      rgba(152, 224, 249, 0.6)),
     url(../images/project-story-wakatipu-high-school-07_2_orig.jpg);
-    height: 90vh;
-    background-position: center;
-    background-size: cover;
-    z-index: 1;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 }
 
 .logo {
-  display:block;
+  display: block;
   margin: 0 auto;
   padding-top: 50px;
   height: 240px;
   width: 420px;
 }
 
-.hero-img h1{
+.hero-img h1 {
   text-align: center;
   font-size: 200%;
   padding: 100px;
@@ -29,10 +29,10 @@
   height: 100%;
   grid-gap: 40px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 40% auto 30%;
+  grid-template-rows: max-content;
   background-color: #fff;
   color: white;
-  margin: 100px 100px 250px 100px;
+  margin: 100px;
   grid-template-areas:
     "one one one one one one one one two two two two"
     "tee tee tee tee tee tee tee tee tee tee tee tee"
@@ -40,14 +40,13 @@
 }
 
 .box {
-  border: unset;
   border-radius: 10px;
 }
 
 .box h2 {
- padding: 20px;
- font-size: 150%;
- text-shadow: 2px 2px 3px rgba(0,0,0,1);
+  padding: 20px;
+  font-size: 150%;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
 
 .box p {
@@ -55,9 +54,9 @@
 }
 
 .one {
-  background-image: linear-gradient(to bottom right,rgba(40, 15, 15, 0.85),
-  rgba(157, 20, 20, 0.7)),
-  url(../images/4908484032_a933d6f067_b.jpg);
+  background-image: linear-gradient(to bottom right, rgba(40, 15, 15, 0.85),
+      rgba(157, 20, 20, 0.7)),
+    url(../images/4908484032_a933d6f067_b.jpg);
   background-position: center;
   background-size: cover;
   grid-area: one;
@@ -69,8 +68,8 @@
 
 .two {
   background-image: radial-gradient(rgba(255, 255, 255, 0.7),
-  rgba(185, 238, 255, 0.7)),
-  url(../images/Years-and-Curriculum-Levels_preview.png);
+      rgba(185, 238, 255, 0.7)),
+    url(../images/Years-and-Curriculum-Levels_preview.png);
   background-position: center;
   color: black;
   background-size: cover;
@@ -85,8 +84,8 @@
 
 .three {
   background-image: linear-gradient(to bottom right,
-    rgba(9, 19, 23, 0.7), rgba(0, 146, 198, 1)),
-  url(../images/geometry-1023846_1280.jpg);
+      rgba(9, 19, 23, 0.7), rgba(0, 146, 198, 1)),
+    url(../images/geometry-1023846_1280.jpg);
   background-size: cover;
   grid-area: tee;
 }
@@ -96,32 +95,37 @@
 }
 
 .four {
-  background-image: radial-gradient(rgba(63, 196, 242, 0.65),
-  rgba(16, 98, 126, 0.6)),url(../images/placeholder.jpg);
+  background-image: radial-gradient(rgba(46, 211, 255, 0.65),
+      rgba(5, 8, 15, 0.65)), url(../images/placeholder.jpg);
   grid-area: for;
 }
 
+.four, .five p {
+  font-size: 110%;
+}
+
 .five {
-  background-image: radial-gradient(rgba(135, 131, 131, 0.7), rgba(105, 105, 105, 0.7)),
-  url(../images/computer-1209641_1280.jpg);
+  background-image: radial-gradient(rgba(101, 99, 99, 0.7), rgba(11, 11, 11, 0.7)),
+    url(../images/computer-1209641_1280.jpg);
   background-size: cover;
   grid-area: fiv;
   border: solid 3px black;
 }
+
 /*Media Query Grid*/
 @media screen and (max-width: 800px) {
-  .content-grid{
-  height: 100%;
-  grid-gap: 0;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
-  margin: 0;
-  grid-template-areas:
-    "one"
-    "two"
-    "tee"
-    "for"
-    "fiv";
+  .content-grid {
+    height: 100%;
+    grid-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    margin: 0px;
+    grid-template-areas:
+      "one"
+      "two"
+      "tee"
+      "for"
+      "fiv";
   }
 
   .box {
@@ -132,6 +136,7 @@
   .box p {
     padding: 40px;
   }
+
   .box h2 {
     padding: 20px;
   }

@@ -1,6 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*All Sections*/
 section {
   padding: 150px 50px;
-  border-top: solid 1px grey;
   height: 100vh;
   font-size: 150%;
+  line-height: 1.5;
+  color: black;
+}
+
+section h1 {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+section h3, ul, ol{
+  margin: 10px 0;
+}
+
+/*Section One*/
+#one a {
+  color: black;
+  text-decoration: none;
+}
+
+#one {
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgb(255,255,255)),
+  url(../images/img-5587_3_orig.jpg);
+  background-size: cover;
+}
+
+#one h1 {
+  font-size: 300%;
+  margin-bottom: 50px;
+}
+
+/*Section Two*/
+#two {
+  background-image: linear-gradient(rgb(255, 255, 255),
+  rgba(255, 255, 255, 0.7),rgb(255,255,255)),
+  url(../images/0117701001528861480_1528861480.jpg);
+  background-size: cover;
+}
+/*Section Three*/
+#three {
+  background-image: linear-gradient(rgb(255, 255, 255),
+  rgba(255, 255, 255, 0.7),rgb(255,255,255)),
+  url(../images/empty-314554_1280.jpg);
+  background-size: cover;
+}
+
+#three p {
+  font-size: 70%;
+}
+
+/*Section Four*/
+#four {
+  background-image: linear-gradient(rgb(255, 255, 255),
+  rgba(255, 255, 255, 0.8),rgba(255,255,255,0.5)),
+  url(../images/Matariki-building.jpg);
+  background-size: cover;
+}
+
+/*Animated Hover Effects*/
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #000000;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
 }

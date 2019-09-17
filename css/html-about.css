@@ -1,5 +1,56 @@
-.content p{
-  font-size: 200%;
-  padding: 100px;
-  margin: 100px auto;
+/*Sections*/
+.content{
+  margin: 100px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+
+
+
+/*Attribution CSS Grid*/
+.attributions {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 100px 100px 100px;
+  grid-template-areas:
+  "first first first first first first secnd secnd secnd secnd secnd secnd";
+}
+
+.attributions ul{
+  font-size: 150%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.attributions li {
+  list-style-type: none;
+}
+
+.one {
+  grid-area: first;
+  border-right: 1.5px solid black;
+}
+
+.two {
+  grid-area: secnd;
+}
+
+/*Media Query Grid*/
+@media screen and (max-width: 800px) {
+  .attributions {
+    grid-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 100px 0;
+    grid-template-areas:
+    "first"
+    "secnd";
+  }
+
+  .one {
+    border-right: unset;
+  }
 }

@@ -121,6 +121,7 @@ footer {
       background: #666666;
       border-bottom: 1px solid rgb(85, 85, 85);
       padding: 45px 0;
+      margin: 0;
     }
 
     nav a#openup:after {
@@ -128,7 +129,6 @@ footer {
       transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       -webkit-transform: rotate(-90deg);
-      width: 30px;
       height: 30px;
       display: inline-block;
       position: absolute;
