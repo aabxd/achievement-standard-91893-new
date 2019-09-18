@@ -29,7 +29,7 @@ section h3, ul, ol{
 #one {
   text-align: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgb(255,255,255)),
-  url(../images/img-5587_3_orig.jpg);
+  url(../images/section1.jpg);
   background-size: cover;
 }
 
@@ -42,14 +42,14 @@ section h3, ul, ol{
 #two {
   background-image: linear-gradient(rgb(255, 255, 255),
   rgba(255, 255, 255, 0.7),rgb(255,255,255)),
-  url(../images/0117701001528861480_1528861480.jpg);
+  url(../images/section2.jpg);
   background-size: cover;
 }
 /*Section Three*/
 #three {
   background-image: linear-gradient(rgb(255, 255, 255),
   rgba(255, 255, 255, 0.7),rgb(255,255,255)),
-  url(../images/empty-314554_1280.jpg);
+  url(../images/section3.jpg);
   background-size: cover;
 }
 
@@ -61,7 +61,7 @@ section h3, ul, ol{
 #four {
   background-image: linear-gradient(rgb(255, 255, 255),
   rgba(255, 255, 255, 0.8),rgba(255,255,255,0.5)),
-  url(../images/Matariki-building.jpg);
+  url(../images/section4.jpg);
   background-size: cover;
 }
 
