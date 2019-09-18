@@ -9,6 +9,7 @@
   z-index: 1;
 }
 
+/*Logo*/
 .logo {
   display: block;
   margin: 0 auto;
@@ -20,7 +21,7 @@
 .hero-img h1 {
   text-align: center;
   font-size: 200%;
-  padding: 100px;
+  padding: 50px 100px;
 }
 
 /*Grid*/
@@ -78,7 +79,7 @@
 }
 
 .two h2 {
-  text-shadow: unset;
+  text-shadow: none;
   font-size: 160%;
 }
 
@@ -88,6 +89,10 @@
     url(../images/geometry-1023846_1280.jpg);
   background-size: cover;
   grid-area: tee;
+}
+
+.one, .three, .four, .five p {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
 
 .one h2, .three h2 {
@@ -144,5 +149,20 @@
   .logo {
     height: 200px;
     width: 300px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .logo {
+    height: 500px;
+    width: 750px;
+  }
+
+  .hero-img h1 {
+    font-size: 500%;
+  }
+
+  .content-grid {
+    margin: 100px 500px;
   }
 }

@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(rgb(255, 255, 255),rgb(235, 235, 235));
+}
+
 /*Sections*/
 .content{
   margin: 100px;
@@ -8,8 +12,6 @@
   font-size: 150%;
   margin: 20px 0;
 }
-
-
 
 /*Attribution CSS Grid*/
 .attributions {
@@ -53,4 +55,14 @@
   .one {
     border-right: unset;
   }
+}
+
+@media screen and (min-width: 1920px) {
+  .content h1 {
+    font-size: 200%;
+  }
+  .attributions li{
+    font-size: 130%;
+  }
+
 }
