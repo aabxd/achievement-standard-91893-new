@@ -106,6 +106,8 @@
 .four {
   background-image: radial-gradient(rgba(46, 211, 255, 0.65),
       rgba(5, 8, 15, 0.65)), url(../images/element4.jpg);
+  background-position: center;
+  background-size: cover;
   grid-area: for;
 }
 
