@@ -32,11 +32,13 @@ body {
   list-style-type: none;
 }
 
+/*List 1*/
 .one {
   grid-area: first;
   border-right: 1.5px solid black;
 }
 
+/*List 2*/
 .two {
   grid-area: secnd;
 }
@@ -56,7 +58,7 @@ body {
     border-right: unset;
   }
 }
-
+/*Desktop media query grid*/
 @media screen and (min-width: 1920px) {
   .content h1 {
     font-size: 200%;

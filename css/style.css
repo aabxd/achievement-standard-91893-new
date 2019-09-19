@@ -1,3 +1,4 @@
+/*Font import*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
 * {
@@ -60,7 +61,7 @@ footer {
   color: white;
 }
 
-/*Animated Hover FX*/
+/*Animated Hover FX for Navigation by Bhautik Bharadava*/
 .btn {
   cursor: pointer;
   position: relative;
@@ -159,7 +160,7 @@ footer {
       background-color: #434343;
       text-align: center;
     }
-
+/*Navigation Hover FX are disabled in 800px width*/
     .btn:after {
       top: -1px;
       left: -1px;

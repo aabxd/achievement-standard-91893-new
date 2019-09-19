@@ -65,8 +65,7 @@ section h3, ul, ol{
   background-size: cover;
 }
 
-/*Animated Hover Effects*/
-/* Underline From Center */
+/*Animated Hover Effects by Ian Lunn*/
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;

@@ -9,7 +9,7 @@
   z-index: 1;
 }
 
-/*Logo*/
+/*NZQA Logo*/
 .logo {
   display: block;
   margin: 0 auto;
@@ -17,14 +17,14 @@
   height: 240px;
   width: 420px;
 }
-
+/*Hero Image Heading*/
 .hero-img h1 {
   text-align: center;
   font-size: 200%;
   padding: 50px 100px;
 }
 
-/*Grid*/
+/*CSS Grid*/
 .content-grid {
   display: grid;
   height: 100%;
@@ -54,6 +54,11 @@
   padding: 40px;
 }
 
+.one, .three, .four, .five p {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+/*Element 1*/
 .one {
   background-image: linear-gradient(to bottom right, rgba(40, 15, 15, 0.85),
       rgba(157, 20, 20, 0.7)),
@@ -67,6 +72,7 @@
   font-size: 120%;
 }
 
+/*Element 2*/
 .two {
   background-image: radial-gradient(rgba(255, 255, 255, 0.7),
       rgba(185, 238, 255, 0.7)),
@@ -83,6 +89,7 @@
   font-size: 160%;
 }
 
+/*Element 3*/
 .three {
   background-image: linear-gradient(to bottom right,
       rgba(9, 19, 23, 0.7), rgba(0, 146, 198, 1)),
@@ -91,14 +98,11 @@
   grid-area: tee;
 }
 
-.one, .three, .four, .five p {
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-}
-
 .one h2, .three h2 {
   font-size: 200%;
 }
 
+/*Element 4*/
 .four {
   background-image: radial-gradient(rgba(46, 211, 255, 0.65),
       rgba(5, 8, 15, 0.65)), url(../images/element4.jpg);
@@ -109,6 +113,7 @@
   font-size: 110%;
 }
 
+/*Element 5*/
 .five {
   background-image: radial-gradient(rgba(101, 99, 99, 0.7), rgba(11, 11, 11, 0.7)),
     url(../images/element5.jpg);
@@ -117,7 +122,7 @@
   border: solid 3px black;
 }
 
-/*Media Query Grid*/
+/*Mobile Media Query Grid*/
 @media screen and (max-width: 800px) {
   .content-grid {
     height: 100%;
@@ -152,6 +157,7 @@
   }
 }
 
+/*Desktop Media Query Hero image*/
 @media screen and (min-width: 1920px) {
   .logo {
     height: 500px;
